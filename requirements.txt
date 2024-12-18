@@ -1,0 +1,14 @@
+# AI Chatbot with SQLite Integration
+
+This project is a conversational AI chatbot that uses LangChain's Ollama integration for generating responses and SQLite for storing conversation history. 
+It allows users to interact with the bot, view past conversations, and manage the stored data.
+
+## Features
+- AI-powered chatbot using the **Ollama Phi** model. ( You can use any model as you wish)
+- Conversation history is saved in a local SQLite database.
+- Options to view or delete chat history.
+
+## Prerequisites
+1. Python 3.8 or higher installed on your system.
+2. Install the **Ollama Phi** model. ( You can use any model as you wish).
+
