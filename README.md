@@ -26,7 +26,14 @@ Before running the project, make sure you have the following installed:
    After installation, pull the model you'd like to use (e.g., Phi):
    ```bash
    ollama pull phi
-   
+
+3. ### 🚀 Run the Chatbot
+
+Start the chatbot using:
+
+```bash
+python chatbot.py
+
 ---
 
 💬 Chatbot Commands
