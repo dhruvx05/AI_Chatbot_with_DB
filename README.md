@@ -19,10 +19,25 @@ It allows users to interact with the bot, view past conversations, and manage th
 Before running the project, make sure you have the following installed:
 
 1. **Python 3.8 or higher**  
-   [Download Python](https://www.python.org/downloads/)
+   👉 [Download Python](https://www.python.org/downloads/)
 
 2. **Ollama (Local LLM Runtime)**  
-   Install Ollama from [https://ollama.com](https://ollama.com)  
-   Then pull the Phi model:
+   👉 Download and install Ollama from [https://ollama.com](https://ollama.com)  
+   After installation, pull the model you'd like to use (e.g., Phi):
    ```bash
    ollama pull phi
+   
+---
+
+💬 Chatbot Commands
+Once the chatbot is running:
+
+🗣️ Type your message and press Enter to chat with the AI
+
+📜 Type history → View stored conversation history
+
+🧹 Type clear → Delete all saved chat history
+
+❌ Type exit → Quit the chatbot
+
+All conversations are stored in chat_history.db (SQLite) in the project folder.
