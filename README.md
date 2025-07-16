@@ -27,7 +27,7 @@ Before running the project, make sure you have the following installed:
    ```bash
    ollama pull phi
 
-3. ### 🚀 Run the Chatbot
+3. ** 🚀 Run the Chatbot
 
 Start the chatbot using:
 
